@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stepik Clone - Quiz Interface</title>
+    <title>Техноград. Тестирование ПО</title>
     <style>
         :root {
             --bg-dark: #212121;
@@ -3972,7 +3972,7 @@
             const totalInLesson = lesson.steps.length;
             const pointsGot = completedInLesson === totalInLesson ? 4 : 0; 
             
-            statsEl.textContent = `${completedInLesson} из ${totalInLesson} шагов пройдено &nbsp;&nbsp; ${pointsGot} из 4 баллов получено`;
+            statsEl.textContent = `${completedInLesson} из ${totalInLesson} шагов пройдено; ${pointsGot} из 4 баллов получено`;
 
             indicatorsEl.innerHTML = '';
             lesson.steps.forEach((step, index) => {
